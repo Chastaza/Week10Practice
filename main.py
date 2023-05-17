@@ -66,7 +66,7 @@ while True:
  
     if isinstance(vehicle, Car):
         print(f"Number of doors: {vehicle.get_num_doors()}")
-        print("Vehicle has been added to your garage.")
+        print("This vehicle has been added to your garage.")
     elif isinstance(vehicle, Truck):
         print(f"Bed length: {vehicle.get_bed_length()}")
-        print("Vehicle has been added to your garage.")
+        print("This vehicle has been added to your garage.")
